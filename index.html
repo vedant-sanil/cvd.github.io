@@ -116,7 +116,29 @@
 	
 	<img src="data/03_25_2020/lr_roc_cough_dvec_03_25_2020.png" alt="Logistic Regression">
 	
+	<div class="container-fluid">
 	
+      <h3>Model Performance</h3>
+
+      <p>Table indicating various evaluation parameters.</p>
+      
+      <div id='table-container-2'></div>
+		
+	<img src="data/03_25_2020/deci_tree_roc_cough_dvec_03_25_2020.png" alt="Decision Tree">
+		
+		
+
+    </div><!-- /.container -->
+	
+	<div class="container-fluid">
+	
+      <h3>Model Performance</h3>
+
+      <p>Table indicating various evaluation parameters.</p>
+      
+      <div id='table-container-3'></div>
+
+    </div><!-- /.container -->
 	
 	
 	
@@ -151,41 +173,6 @@
       });
     </script>
 	
-	<script type="text/javascript">
-      function format_link(link){
-        if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-        else
-          return "";
-      }
-
-      CsvToHtmlTable.init({
-        csv_path: 'data/03_25_20/knn_report_cough_dvec_03_25_2020.csv',
-        element: 'table-container-2',
-        allow_download: true,
-        csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false},
-        custom_formatting: [[4, format_link]]
-      });
-    </script>
-	
-	<script type="text/javascript">
-      function format_link(link){
-        if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-        else
-          return "";
-      }
-
-      CsvToHtmlTable.init({
-        csv_path: 'data/03_25_20/deci_tree_report_cough_dvec_03_25_2020.csv',
-        element: 'table-container-3',
-        allow_download: true,
-        csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false},
-        custom_formatting: [[4, format_link]]
-      });
-    </script>
 	
 	<div> 
 	This research is supported by:
