@@ -46,6 +46,7 @@
   ga('create', 'UA-32372780-2', 'auto');
   ga('send', 'pageview');
 
+
 </script>
 <script type="text/javascript">
   function togglevis(elid){
@@ -61,6 +62,17 @@
     }
   }
 </script>
+
+    <script>
+  CsvToHtmlTable.init({
+    csv_path: 'data/results/lr_report_cough_dvec_03_24_2020.csv',
+    element: 'table-container',
+    allow_download: true,
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {"paging": false}
+  });
+</script>
+
 </head> 
 <body itemscope itemtype="http://schema.org/ScholarlyArticle"> 
 <div id="primarycontent"> 
@@ -86,6 +98,7 @@
         </table>
 <h3>Abstract</h3>
 
+    <iframe style="border-style: none;" src="https://vedant-sanil.github.io/cvd.github.io/csv-to-html-table/" height="950" width="600"></iframe>
 
 <p style="padding-left: 10px;	padding-right: 10px; font-size:16px">
 FILL in some text here
