@@ -1,0 +1,156 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="StyleSheet" href="style.css" type="text/css" media="all" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>COVID-19 Voice Alert</title> 
+<style type="text/css">
+#primarycontent h1 {
+	font-variant: small-caps;
+}
+#primarycontent h3 {
+}
+#primarycontent teasertext {
+	text-align: center;
+}
+#primarycontent p {
+	text-align: center;
+}
+#primarycontent {
+	text-align: justify;
+}
+#primarycontent p {
+	text-align: justify;
+}
+#primarycontent p iframe {
+	text-align: center;
+}
+.featart {
+  margin:4px;
+}
+.hoverdiv {
+  background-color:black;
+  margin-top:2px;
+  margin-bottom:10px;
+  width:100%;
+}
+.hoverdiv:hover {
+  background-color:white;
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32372780-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+  function togglevis(elid){
+    el=document.getElementById(elid);
+    aelid=elid+"a";
+    ael=document.getElementById(aelid);
+    if(el.style.display=='none'){
+      el.style.display='inline-table';
+      ael.innerHTML="[Hide BibTex]";
+    }else{
+      el.style.display='none';
+      ael.innerHTML="[Show BibTex]";
+    }
+  }
+</script>
+</head> 
+<body itemscope itemtype="http://schema.org/ScholarlyArticle"> 
+<div id="primarycontent"> 
+<!--<p class="hiddenDiv" itemprop="url">http://graphics.cs.cmu.edu/projects/deepContext/</p>-->
+<h1 align="center" itemprop="name"><strong> COVID-19 Voice Alert</strong></h1>
+
+<ul id="people" itemprop="accountablePerson">
+<table align=center width=800px>
+  <tr>
+    <td align=center width=150px>
+    <center><span style="font-size:20px"><a href="http://www.cs.cmu.edu/~aps1/" target="_blank">Ankit Shah*</a></span></center></td>
+    <td align=center width=150px>
+    <center><span style="font-size:20px"><a href="http://www.cs.cmu.edu/~bhiksha/" target="_blank">Bhiksha Raj</a></span></center></td>
+  <tr/>
+ </table>
+        <table align=center width=600px style="padding-top:10px;padding-bottom:10px">
+          <tr>
+            <td align=center width=600px><center><span style="font-size:20px">Carnegie Mellon University, Language Technologies Institute</span></center></td>
+          <tr/>
+          <tr>
+            <td align=center width=600px><center><span style="font-size:12px">* denotes equal contribution</span></center></td>
+          <tr/>
+        </table>
+<h3>Abstract</h3>
+
+
+<p style="padding-left: 10px;	padding-right: 10px; font-size:16px">
+FILL in some text here
+</p>
+<h3>Network Architecture</h3>
+<table style="margin: 0 auto"><tr>
+  <td>
+    <iframe width="752" height="423" src="images/WALNet_Architecture_Diagram.jpg" frameborder="0" allowfullscreen style="margin:10px;"></iframe>
+  </td>
+</tr></table>
+
+<h3>Paper</h3>
+<table><tr>
+  <td>
+    <p style="padding-left: 10px;	padding-right: 0px;text-align:right;">
+    <a href="https://arxiv.org/abs/1804.09288"><img style="border:solid 0px #000;margin-top:10px;margin-right:20px;width:350px;" src="images/paper.jpg"/></a></p>
+  </td>
+  <td valign="middle">
+	<p style="text-align:left;margin-top:5px;">
+	<p style="margin-top:10px;">
+	<p style="text-align:left;"><b>Citation</b><br/><span style="font-size:4px;">&nbsp;<br/></span> Ankit Shah, Anurag Kumar, Alexander Hauptmann, Bhiksha Raj <b> A Closer Look at Weak Label Learning for Audio Events</b> Submitted to IEEE JSTSP Special Issue: Machine Learning for Audio Processing</i>.
+   	<a href="javascript:togglevis('ankit18')" id="doersch13a">[Show BibTex]</a>
+    	<a href="https://arxiv.org/pdf/1804.09288.pdf">[PDF]</a>
+	<a href="https://github.com/ankitshah009/WALNet-Weak_Label_Analysis">[Code - GitHub]</a></br>
+      	<table class="bibtex" style="display:none;margin-top:20px;" id="ankit18"><tr><td>
+        	  <pre>
+		@article{shah2018closer,
+		title={A Closer Look at Weak Label Learning for Audio Events},
+	     	author={Shah, Ankit and Kumar, Anurag and Hauptmann, Alexander G and Raj, Bhiksha},
+	  	journal={arXiv preprint arXiv:1804.09288},
+	  	year={2018}
+	  	}
+          	</pre>
+       </td></tr></table>
+</p>
+</p>
+</table>
+
+<h3 style="clear:both">Weak Audio Learning Related Papers</h3>
+<p style="padding-left: 10px; padding-right: 10px;">Anurag Kumar, Bhiksha Raj  <a href="https://arxiv.org/abs/1606.03664/">Weakly Supervised Scalable Audio Content Analysis</a> IEEE International Conference on Multimedia and Expo (ICME), July 2016.</p>
+<p style="padding-left: 10px; padding-right: 10px;">Romain Serizel, Nicolas Turpault, Hamid Eghbal-Zadeh, Ankit Parag Shah <a href="https://hal.inria.fr/hal-01850270/file/task4.pdf">Large-Scale Weakly Labeled Semi-Supervised Sound Event Detection in Domestic Environments</a> DCASE2018 Workshop, Nov 2018</p>
+<p style="padding-left: 10px; padding-right: 10px; margin-top:10px;"><b>Other works on related to &ldquo;Audio Event&rdquo; Learning</b></p></td></tr>
+<p style="padding-left: 10px; padding-right: 10px;">Szu-Yu Chou, Jyh-Shing Roger Jang, Yi-Hsuan Yang<a href="https://www.ijcai.org/proceedings/2018/0463.pdf"> Learning to Recognize Transient Sound Events Using Attentional Supervision</a> 27th International Joint Conference on Artificial Intelligence, 2018<p>
+<p style="padding-left: 10px; padding-right: 10px;">Shizhe Chen, Jia Chen, Qin Jin, Alexander Hauptmann <a href="https://dl.acm.org/citation.cfm?id=3206067">Class-aware Self-Attention for Audio Event Recognition</a> International Conference on Multimedia Retrieval, 2018<p>
+
+
+
+<h3 style="clear:both">Funding</h3>
+<p style="padding-left: 10px; padding-right: 10px;">
+This research was supported by:
+<ul>
+Carnegie Mellon University
+</ul>
+
+</p>
+<!--<h3 style="clear:both">Website Template</h3>
+<p style="padding-left: 10px; padding-right: 10px;">
+The template for this website has been adopted from Carl Doersch.
+</p>-->
+<h3 style="clear:both">Contact</h3>
+<p style="padding-left: 10px; padding-right: 10px;">
+For questions/comments, contact <a href="http://www.cs.cmu.edu/~aps1/"  target="_blank">Ankit Shah, Anurag Kumar</a></p>
+</div>
+
+
+
+</body>
+</html>
