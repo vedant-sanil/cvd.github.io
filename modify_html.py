@@ -1,6 +1,6 @@
 import os
 
-def modify(filename)
+def modify(filename):
     # load the file
     with open(filename,"r") as idx:
         txt = idx.read()
